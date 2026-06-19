@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tokenity Japan Shareholder Wave Room</title>
+    <meta
+      name="description"
+      content="Tokenity Japan AI + Web3 trust technology shareholder briefing portal in Traditional Chinese, Simplified Chinese, English and Japanese."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/tokenity-japan-hero.svg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="#overview" aria-label="Tokenity Japan shareholder room">
+        <span class="brand-mark">T</span>
+        <span>
+          <strong>Tokenity Japan</strong>
+          <small data-i18n="brandSub">股東 Wave 資料室</small>
+        </span>
+      </a>
+      <div class="topbar-controls">
+        <nav aria-label="Section navigation">
+          <a href="#thesis" data-i18n="navThesis">投資論點</a>
+          <a href="#products" data-i18n="navProducts">產品</a>
+          <a href="#roadmap" data-i18n="navRoadmap">路線圖</a>
+          <a href="#market" data-i18n="navMarket">市場</a>
+          <a href="#peers" data-i18n="navPeers">同業分析</a>
+          <a href="#actions" data-i18n="navNext">下一步</a>
+        </nav>
+        <div class="language-switcher" aria-label="Language selector">
+          <button type="button" class="lang-button active" data-lang="zh-Hant">繁</button>
+          <button type="button" class="lang-button" data-lang="zh-Hans">简</button>
+          <button type="button" class="lang-button" data-lang="en">EN</button>
+          <button type="button" class="lang-button" data-lang="ja">日</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="hero">
+        <img
+          class="hero-image"
+          src="assets/tokenity-japan-hero.svg"
+          alt="Abstract fintech trust infrastructure network over Japan financial district"
+          data-i18n-attr="alt:heroImageAlt"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">機密股東簡報 | V1 | 2026-06-16</p>
+          <h1 data-i18n="heroTitle">日本 AI + Web3 信任科技基礎設施</h1>
+          <p class="hero-copy" data-i18n="heroCopy">
+            Tokenity Japan 將以高槓桿一人公司模式啟動，由 AI agents、外部專家與 Tokenity 技術架構共同支撐：
+            Tokenity Monitor、Tokenity Verify、BCA、AI 風險情報、可信證據驗證與 AI 人力派遣。
+          </p>
+          <div class="hero-actions" aria-label="Page shortcuts">
+            <a class="button primary" href="#actions" data-i18n="heroPrimary">90 天啟動計畫</a>
+            <a class="button secondary" href="#peers" data-i18n="heroSecondary">查看同業分析</a>
+          </div>
+          <dl class="metric-strip" id="metrics"></dl>
+        </div>
+      </section>
+
+      <section class="notice">
+        <strong data-i18n="noticeTitle">揭露提示</strong>
+        <span data-i18n="noticeText">
+          本頁為營運規劃與股東溝通草案，並非法律、勞務派遣、證券、暗号資産、稅務或投資建議。正式執行前須由日本律師、稅理士、社労士與資安顧問審閱。
+        </span>
+      </section>
+
+      <section id="thesis" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="thesisEyebrow">投資論點</p>
+          <h2 data-i18n="thesisTitle">不是 AI 客服公司，而是信任層公司。</h2>
+          <p data-i18n="thesisText">
+            公司應以防詐、合規、鏈上情報、智能合約審查、可信證據與 AI 營運為主軸。AI 客服有價值，但不是核心股權故事。
+          </p>
+        </div>
+        <div class="grid three" id="thesisCards"></div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="evidenceEyebrow">公開錨點</p>
+          <h2 data-i18n="evidenceTitle">Tokenity 法人與產品規劃</h2>
+        </div>
+        <div class="evidence-grid" id="evidenceGrid"></div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="productsEyebrow">產品系統</p>
+          <h2 data-i18n="productsTitle">全部規劃事業線</h2>
+          <p data-i18n="productsText">
+            第一年度應先銷售可包裝的 PoC 專案與月費情報服務，再逐步投入重型平台開發。
+          </p>
+        </div>
+        <div class="product-table-wrap">
+          <table class="product-table">
+            <thead id="productHead"></thead>
+            <tbody id="productBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="agents" class="section split">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow" data-i18n="agentsEyebrow">一人公司</p>
+          <h2 data-i18n="agentsTitle">AI agents 取代部門。</h2>
+          <p data-i18n="agentsText">
+            CEO 保留決策權。Agents 處理可重複的研究、寫作、分析、QA、跟進與規劃工作；受監管或高風險內容交由真人專家審閱。
+          </p>
+        </div>
+        <div class="agent-list" id="agentList"></div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="roadmapEyebrow">執行路線圖</p>
+          <h2 data-i18n="roadmapTitle">開發進度與預算</h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+        <div class="budget-grid" id="budgetGrid"></div>
+      </section>
+
+      <section id="market" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="marketEyebrow">日本市場產值</p>
+          <h2 data-i18n="marketTitle">商業價值估算</h2>
+          <p data-i18n="marketText">
+            可服務機會來自日本 AI、資安、DX、區塊鏈、暗号資産合規、RegTech 與 IT 人力市場的交集。本模型採可服務市場區間，而不是將所有 TAM 直接相加。
+          </p>
+        </div>
+        <div class="market-grid" id="marketGrid"></div>
+        <div class="chart" id="revenueChart" role="img" aria-label="Revenue scenario chart from year one to year five"></div>
+      </section>
+
+      <section id="peers" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="peersEyebrow">其他公司分析</p>
+          <h2 data-i18n="peersTitle">同業地圖與戰略空白</h2>
+          <p data-i18n="peersText">
+            Tokenity Japan 不應複製任何單一同業。真正的戰略空白，是在日本市場同時整合鏈上信任、AI 風險情報、智能合約審查、可信證據與 AI 人力派遣。
+          </p>
+        </div>
+        <div class="peer-controls" id="peerControls" role="tablist" aria-label="Peer filters"></div>
+        <div class="peer-grid" id="peerGrid"></div>
+      </section>
+
+      <section class="section split">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow" data-i18n="riskEyebrow">風險控管</p>
+          <h2 data-i18n="riskTitle">執行護欄</h2>
+        </div>
+        <div class="risk-list" id="riskList"></div>
+      </section>
+
+      <section id="actions" class="section final-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="actionsEyebrow">立即行動</p>
+          <h2 data-i18n="actionsTitle">第一個月營運衝刺</h2>
+        </div>
+        <ol class="action-list" id="actionList"></ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footerLeft">Tokenity Japan Shareholder Wave Room | 內部規劃草案</p>
+      <p data-i18n="footerRight">
+        來源包含日本市場公開資料、OSAKA 金融科技活動案例、Tokenity 規劃資料與營運計畫書中引用的市場研究基準。
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
