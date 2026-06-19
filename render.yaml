@@ -1,0 +1,7 @@
+services:
+  - type: web
+    runtime: static
+    name: tokenity-japan-shareholder-room
+    plan: free
+    buildCommand: ""
+    staticPublishPath: web
