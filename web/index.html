@@ -12,6 +12,7 @@
     <link rel="preload" href="assets/tokenity-japan-hero.svg" as="image" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="deep-dive.css" />
+    <link rel="stylesheet" href="richness.css" />
   </head>
   <body>
     <header class="topbar" aria-label="Primary navigation">
@@ -82,6 +83,46 @@
           </p>
         </div>
         <div class="grid three" id="thesisCards"></div>
+      </section>
+
+      <section id="investor-brief" class="section investor-brief-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-rich-i18n="briefEyebrow">股東決策室</p>
+          <h2 data-rich-i18n="briefTitle">把 Tokenity 變成可審查、可銷售、可擴張的一人公司。</h2>
+          <p data-rich-i18n="briefText">
+            本區補強股東最在意的問題：為什麼現在進入日本、先賣什麼、如何交付、錢花在哪裡、何時擴編，以及哪些事絕對不能碰。
+          </p>
+        </div>
+        <div class="brief-grid" id="briefGrid"></div>
+        <div class="decision-panel">
+          <div>
+            <p class="eyebrow" data-rich-i18n="decisionEyebrow">董事會儀表板</p>
+            <h3 data-rich-i18n="decisionTitle">第一年只追蹤會改變估值的指標。</h3>
+          </div>
+          <div class="decision-grid" id="decisionGrid"></div>
+        </div>
+      </section>
+
+      <section id="operating-system" class="section operating-system-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-rich-i18n="osEyebrow">營運系統</p>
+          <h2 data-rich-i18n="osTitle">AI Agent + 專家審核 + 產品化交付。</h2>
+          <p data-rich-i18n="osText">
+            Tokenity Japan 的核心不是人多，而是把每次研究、報告、合規檢查與客戶交付變成可複製流程。
+          </p>
+        </div>
+        <div class="os-lanes" id="osLanes"></div>
+      </section>
+
+      <section id="use-cases" class="section use-case-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-rich-i18n="casesEyebrow">客戶場景</p>
+          <h2 data-rich-i18n="casesTitle">用具體場景讓海外股東看懂營收來源。</h2>
+          <p data-rich-i18n="casesText">
+            每個場景都能先用 paid discovery 成交，再擴成 PoC、月費監控、API 或 AI operator 長約。
+          </p>
+        </div>
+        <div class="use-case-grid" id="useCaseGrid"></div>
       </section>
 
       <section class="section band">
@@ -218,5 +259,6 @@
     <script src="app.js"></script>
     <script src="pricing.js"></script>
     <script src="deep-dive.js"></script>
+    <script src="richness.js"></script>
   </body>
 </html>
