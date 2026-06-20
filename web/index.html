@@ -11,6 +11,7 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preload" href="assets/tokenity-japan-hero.svg" as="image" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="deep-dive.css" />
   </head>
   <body>
     <header class="topbar" aria-label="Primary navigation">
@@ -26,6 +27,7 @@
           <a href="#thesis" data-i18n="navThesis">投資論點</a>
           <a href="#products" data-i18n="navProducts">產品</a>
           <a href="#pricing" data-i18n="navPricing">收費</a>
+          <a href="#deep-dive" data-i18n="navDeep">深度</a>
           <a href="#roadmap" data-i18n="navRoadmap">路線圖</a>
           <a href="#market" data-i18n="navMarket">市場</a>
           <a href="#peers" data-i18n="navPeers">同業分析</a>
@@ -124,6 +126,27 @@
         <p class="pricing-note" id="pricingNote"></p>
       </section>
 
+      <section id="deep-dive" class="section deep-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="deepEyebrow">深度營運藍圖</p>
+          <h2 data-i18n="deepTitle">從 STO/RWA 策略到可交付產品。</h2>
+          <p data-i18n="deepText">
+            本區把 Tokenity 的商業模式拆成可銷售、可審查、可交付、可擴張的營運系統，讓股東能看見公司如何從一人公司變成機構級信任科技平台。
+          </p>
+        </div>
+        <div class="deep-map" id="deepMap"></div>
+        <div class="deep-split">
+          <div class="deep-panel">
+            <h3 data-i18n="deepStackTitle">STO/RWA 交付堆疊</h3>
+            <div id="deepStack"></div>
+          </div>
+          <div class="deep-panel">
+            <h3 data-i18n="deepKpiTitle">12 個月 KPI</h3>
+            <div id="deepKpis"></div>
+          </div>
+        </div>
+      </section>
+
       <section id="agents" class="section split">
         <div class="section-heading sticky-heading">
           <p class="eyebrow" data-i18n="agentsEyebrow">一人公司</p>
@@ -194,5 +217,6 @@
 
     <script src="app.js"></script>
     <script src="pricing.js"></script>
+    <script src="deep-dive.js"></script>
   </body>
 </html>
