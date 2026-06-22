@@ -42,6 +42,19 @@ const extensionCopy = {
     dataRoomEyebrow: "資料室",
     dataRoomTitle: "海外股東下一輪應看到的文件。",
     dataRoom: ["日本法人登記簿與營業目的草案", "Tokenity 技術/商標/銷售授權文件", "STO/RWA 合規邊界 memo", "AI 派遣/業務委託合約模板", "三種 fixed-scope PoC SOW", "12 個月預算與 hiring gates", "100 家目標客戶清單與 pipeline", "Demo、報告模板與資料安全政策"],
+    agentLaunchEyebrow: "AI Agent 刊發台",
+    agentLaunchTitle: "每個商品都配置一個可執行 Agent。",
+    agentLaunchText: "先把主題、任務、第一批刊發物與狀態拆清楚，再逐一啟動研究、商品頁、簡報、SOW 與銷售素材。",
+    agentLaunch: [
+      ["Monitor Agent", "Tokenity Monitor", "Ready", ["競品對標", "調查報告模板", "商品頁與 PoC SOW"]],
+      ["RWA Agent", "STO/RWA Readiness", "Ready", ["readiness 問卷", "資料室清單", "合規紅線 memo"]],
+      ["Risk Agent", "AI Risk Intelligence", "Ready", ["風險週報樣板", "詐騙敘事資料庫", "月費方案"]],
+      ["BCA Agent", "BCA Japan", "Queued", ["審查流程", "漏洞分級", "audit + monitoring 報價"]],
+      ["Staffing Agent", "AI Staffing Studio", "Queued", ["AI operator 職能", "人月報價", "契約邊界"]],
+      ["API Agent", "Trust Score API", "Queued", ["score 欄位", "API package", "developer brief"]],
+      ["Evidence Agent", "Trust Evidence", "Queued", ["QR/hash flow", "物流/高價商品案例", "PoC 範圍"]],
+      ["IR Agent", "Investor Data Room", "Active", ["股東月報", "KPI dashboard", "預算與 hiring gates"]],
+    ],
   },
   "zh-Hans": {
     productDepthEyebrow: "产品深度",
@@ -70,6 +83,19 @@ const extensionCopy = {
     dataRoomEyebrow: "资料室",
     dataRoomTitle: "海外股东下一轮应看到的文件。",
     dataRoom: ["日本法人登记簿与营业目的草案", "Tokenity 技术/商标/销售授权文件", "STO/RWA 合规边界 memo", "AI 派遣/业务委托合约模板", "三种 fixed-scope PoC SOW", "12 个月预算与 hiring gates", "100 家目标客户清单与 pipeline", "Demo、报告模板与资料安全政策"],
+    agentLaunchEyebrow: "AI Agent 刊发台",
+    agentLaunchTitle: "每个产品都配置一个可执行 Agent。",
+    agentLaunchText: "先把主题、任务、第一批刊发物与状态拆清楚，再逐一启动研究、产品页、简报、SOW 与销售素材。",
+    agentLaunch: [
+      ["Monitor Agent", "Tokenity Monitor", "Ready", ["竞品对标", "调查报告模板", "产品页与 PoC SOW"]],
+      ["RWA Agent", "STO/RWA Readiness", "Ready", ["readiness 问卷", "资料室清单", "合规红线 memo"]],
+      ["Risk Agent", "AI Risk Intelligence", "Ready", ["风险周报样板", "诈骗叙事数据库", "月费方案"]],
+      ["BCA Agent", "BCA Japan", "Queued", ["审查流程", "漏洞分级", "audit + monitoring 报价"]],
+      ["Staffing Agent", "AI Staffing Studio", "Queued", ["AI operator 职能", "人月报价", "契约边界"]],
+      ["API Agent", "Trust Score API", "Queued", ["score 字段", "API package", "developer brief"]],
+      ["Evidence Agent", "Trust Evidence", "Queued", ["QR/hash flow", "物流/高价商品案例", "PoC 范围"]],
+      ["IR Agent", "Investor Data Room", "Active", ["股东月报", "KPI dashboard", "预算与 hiring gates"]],
+    ],
   },
   en: {
     productDepthEyebrow: "Product depth",
@@ -91,6 +117,19 @@ const extensionCopy = {
     dataRoomEyebrow: "Data room",
     dataRoomTitle: "Documents overseas shareholders should see next.",
     dataRoom: ["Japanese registry and business-purpose draft", "Tokenity technology/trademark/sales authorization", "STO/RWA compliance boundary memo", "AI staffing/services contract templates", "Three fixed-scope PoC SOWs", "12-month budget and hiring gates", "100-account target list and pipeline", "Demo, report templates and data-security policy"],
+    agentLaunchEyebrow: "AI Agent publishing desk",
+    agentLaunchTitle: "Each product gets one executable agent.",
+    agentLaunchText: "Define the topic, tasks, first publishing assets and status before launching research, product pages, decks, SOWs and sales material.",
+    agentLaunch: [
+      ["Monitor Agent", "Tokenity Monitor", "Ready", ["peer benchmark", "investigation report template", "product page and PoC SOW"]],
+      ["RWA Agent", "STO/RWA Readiness", "Ready", ["readiness questionnaire", "data-room checklist", "compliance boundary memo"]],
+      ["Risk Agent", "AI Risk Intelligence", "Ready", ["weekly risk brief", "fraud narrative database", "retainer package"]],
+      ["BCA Agent", "BCA Japan", "Queued", ["audit workflow", "severity model", "audit + monitoring price"]],
+      ["Staffing Agent", "AI Staffing Studio", "Queued", ["AI operator roles", "person-month pricing", "contract boundary"]],
+      ["API Agent", "Trust Score API", "Queued", ["score fields", "API package", "developer brief"]],
+      ["Evidence Agent", "Trust Evidence", "Queued", ["QR/hash flow", "logistics/luxury use case", "PoC scope"]],
+      ["IR Agent", "Investor Data Room", "Active", ["shareholder monthly report", "KPI dashboard", "budget and hiring gates"]],
+    ],
   },
   ja: {
     productDepthEyebrow: "製品深掘り",
@@ -112,6 +151,19 @@ const extensionCopy = {
     dataRoomEyebrow: "データルーム",
     dataRoomTitle: "海外株主が次に確認すべき書類。",
     dataRoom: ["日本法人登記簿と事業目的案", "Tokenity 技術/商標/販売権限書類", "STO/RWA コンプライアンス境界 memo", "AI 派遣/業務委託契約テンプレート", "3 種類の fixed-scope PoC SOW", "12 か月予算と hiring gates", "100 社ターゲットリストと pipeline", "Demo、報告テンプレート、データ安全方針"],
+    agentLaunchEyebrow: "AI Agent 公開デスク",
+    agentLaunchTitle: "各製品に実行可能な Agent を配置する。",
+    agentLaunchText: "テーマ、タスク、最初の公開物、ステータスを定義し、調査、製品ページ、資料、SOW、営業素材を順次起動する。",
+    agentLaunch: [
+      ["Monitor Agent", "Tokenity Monitor", "Ready", ["競合ベンチマーク", "調査報告テンプレート", "製品ページと PoC SOW"]],
+      ["RWA Agent", "STO/RWA Readiness", "Ready", ["readiness 質問票", "データルーム checklist", "コンプライアンス境界 memo"]],
+      ["Risk Agent", "AI Risk Intelligence", "Ready", ["週次 risk brief", "詐欺ナラティブ DB", "月額プラン"]],
+      ["BCA Agent", "BCA Japan", "Queued", ["監査フロー", "重大度モデル", "audit + monitoring 価格"]],
+      ["Staffing Agent", "AI Staffing Studio", "Queued", ["AI operator 役割", "人月価格", "契約境界"]],
+      ["API Agent", "Trust Score API", "Queued", ["score 項目", "API package", "developer brief"]],
+      ["Evidence Agent", "Trust Evidence", "Queued", ["QR/hash flow", "物流/高額品 use case", "PoC 範囲"]],
+      ["IR Agent", "Investor Data Room", "Active", ["株主月報", "KPI dashboard", "予算と hiring gates"]],
+    ],
   },
 };
 
@@ -154,6 +206,16 @@ function renderExtension(lang = extLanguage()) {
     steps.forEach((step) => list.append(extElement("li", "", step)));
     card.append(extElement("span", "", stage), extElement("h3", "", stage.replace(/^[0-9]+\s*/, "")), extElement("p", "", text), list);
     gtmBoard.append(card);
+  });
+
+  const agentLaunchGrid = document.getElementById("agentLaunchGrid");
+  agentLaunchGrid.replaceChildren();
+  copy.agentLaunch.forEach(([agent, product, status, tasks]) => {
+    const card = extElement("article", "agent-launch-card");
+    const list = extElement("ul");
+    tasks.forEach((task) => list.append(extElement("li", "", task)));
+    card.append(extElement("span", "", agent), extElement("h3", "", product), extElement("strong", "", status), list);
+    agentLaunchGrid.append(card);
   });
 
   const governanceGrid = document.getElementById("governanceGrid");
